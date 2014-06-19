@@ -27,7 +27,7 @@ The steps are as follows:
 
 3. The features.txt contains all the 561 variables that are there in the X_train/test dataset. The features.txt file is read by the script and the column names are extracted and applied to the 2 files, thus giving a descriptive variable name to each column.
 
-4. Grep is used to extract the column names containing 'mean' and 'std'. The data is then subsetted keeping only these columns.
+4. Grep is used to extract the column names containing 'mean()' and 'std()'. Columns contaning meanFreq() were not extracted. The data is then subsetted keeping only these columns.
 
 5. All the 3 files for the test and train folder are bound together using cbind(). Then the 2 datasets are bound together using rbind().
 

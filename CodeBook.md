@@ -57,6 +57,8 @@ colnames(data)
 
 4. column name containing 'std': The column contaning the standard deviation for the measurement.
 
+The columns which contained meanFreq() were not selected. Only the columns containing the term mean() were selected.
+
 ## The second dataset
 
 The dataset created for the final part of the project. It is a tidy dataset with 68 columns and 180 rows.
