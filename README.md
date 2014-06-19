@@ -50,4 +50,4 @@ This is a tidy dataset based on the principles that:
 2. Each observation forms 1 row.
 3. The dataset has only 1 type of information.
 
-The new dataset has averaged values for each variable, for each subject classified according to his/her activities. The cleaned dataset is also included in the repo.  
+The new dataset has averaged values for each variable, for each subject classified according to his/her activities. The tidy dataset is also included in the repo.  
